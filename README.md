@@ -1,7 +1,6 @@
 # Java-ArralyList-Song-String
 A whole new world [Every turn a surprise] With new horizons to pursue [Every moment, red-letter] I'll chase them anywhere There's time to spare Let me share this whole new world with you A whole new world [A whole new world] That's where we'll be [That's where we'll be] A thrilling chase A wondrous place For you and me
 
-
 package personal;
 
 import java.util.ArrayList;
@@ -10,6 +9,7 @@ public class JavaUtilArrayList {
 	public static void main(String[] args) {
 		
 		//create ArrayList
+		//Adding ArrayList to not put it in array continuesly
 		ArrayList <String> AWholeNewWorld = new ArrayList <>();
 		ArrayList <String> AWholeNewWorld2 = new ArrayList <>();
 		ArrayList <String> AWholeNewWorld3 = new ArrayList <>();
@@ -22,18 +22,16 @@ public class JavaUtilArrayList {
 		AWholeNewWorld4.add("That's where we'll be");
 		
 		//print ArrayList
-		System.out.print("A whole new world ");
-		System.out.println(AWholeNewWorld);
-		System.out.print("With new horizons to pursue ");
-		System.out.println(AWholeNewWorld2);
+		System.out.print("A whole new world "); System.out.println(AWholeNewWorld);
+		System.out.print("With new horizons to pursue "); System.out.println(AWholeNewWorld2);
 		System.out.println("I'll chase them anywhere");
 		System.out.println("There's time to spare");
 		System.out.println("Let me share this whole new world with you");
-		System.out.print("A whole new world ");
-		System.out.println(AWholeNewWorld3);
-		System.out.print("That's where we'll be "); 
-		System.out.println(AWholeNewWorld4);
+		System.out.print("A whole new world "); System.out.println(AWholeNewWorld3);
+		System.out.print("That's where we'll be "); System.out.println(AWholeNewWorld4);
 		System.out.println("A thrilling chase\r\n" + "A wondrous place\r\n" + "For you and me");
 	}
 }
+
+
 
